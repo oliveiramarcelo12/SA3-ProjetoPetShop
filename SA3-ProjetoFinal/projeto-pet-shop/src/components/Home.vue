@@ -1,35 +1,35 @@
 <template>
-     <header>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <header>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <img src="IMG/"  logo width="40vh">
-          <a class="navbar-brand" href="index.html">Home</a>
+          <img src="IMG/" logo width="40vh">
+          <router-link to="/" class="navbar-brand">Home</router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Produtos</a>
+                <router-link to="/produtos" class="nav-link active" aria-current="page">Produtos</router-link>
                 <ul class="submenu">
-                  <li><a href="racao.html">Ração</a></li>
-                  <li><a href="acessorios.html">Acessórios</a></li>
+                  <li><router-link to="/racao">Ração</router-link></li>
+                  <li><router-link to="/acessorios">Acessórios</router-link></li>
                 </ul>
               </li>
               <li class="nav-formulario">
-                <a class="nav-link active" aria-current="page" href="">Serviços Pet</a>
+                <router-link to="/servicos" class="nav-link active" aria-current="page">Serviços Pet</router-link>
               </li>
               <li class="nav-login">
-                <a class="nav-link active" href="">Cadastro</a>
+                <router-link to="/cadastro" class="nav-link active">Cadastro</router-link>
               </li>
               <li class="nav-login">
-                <a class="nav-link active" href="">Login</a>
+                <router-link to="/login" class="nav-link active">Login</router-link>
               </li>
               <li class="nav2-item">
-                <a class="nav-link active" href="meucarrinho.html">
+                <router-link to="/meucarrinho" class="nav-link active">
                   <img src="carrinhoComprar.png" alt="Carrinho" width="40">
-                </a>
+                </router-link>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -39,7 +39,7 @@
           </div>
         </div>
       </nav>
-   </header> 
+    </header>
     <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
