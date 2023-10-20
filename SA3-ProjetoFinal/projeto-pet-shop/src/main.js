@@ -1,11 +1,21 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import VueRouter from "vue-router";
+import "bootstrap/dist/css/bootstrap.css"; // Importe o CSS do Bootstrap
+import "bootstrap/dist/js/bootstrap.js"; // Importe o JavaScript do Bootstrap
 
-createApp(App).mount('#app')
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+Vue.use(VueRouter);
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+const router = new VueRouter({
+  routes: [
+    { path: "/", component: Home }, // Rota para a página inicial
+    { path: "/pagina1", component: Pagina1 }, // Rota para a primeira página
+    { path: "/pagina2", component: Pagina2 }, // Rota para a segunda página
+  ],
+});
 
-Vue.use(BootstrapVue)
+new Vue({
+  el: "#app",
+  router,
+  render: (h) => h(App),
+});
