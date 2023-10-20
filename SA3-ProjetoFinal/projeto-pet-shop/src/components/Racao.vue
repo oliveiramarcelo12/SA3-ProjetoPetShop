@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <img src="IMG/" logo width="40vh">
-          <router-link to="/home" class="navbar-brand">Home</router-link>
+          <router-link to="/" class="navbar-brand">Home</router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -14,7 +14,7 @@
               <li class="nav-item">
                 <router-link to="/produtos" class="nav-link active" aria-current="page">Produtos</router-link>
                 <ul class="submenu">
-                  <li><router-link to="/">Ração</router-link></li>
+                  <li><router-link to="/racao">Ração</router-link></li>
                   <li><router-link to="/acessorios">Acessórios</router-link></li>
                 </ul>
               </li>
