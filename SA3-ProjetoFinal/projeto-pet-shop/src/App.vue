@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <header>
       <!-- Componente HeaderBar.vue -->
@@ -18,10 +19,15 @@
       <ProductList />
       <ShoppingCart />
     </main>
+=======
+  <div id="app">
+    <router-view></router-view>
+>>>>>>> dcc9e7432da33da5916d6253be41a1eabcceb70b
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import HeaderBar from './components/HeaderBar.vue';
 import ContactForm from './components/ContactForm.vue';
 import ProductDetail from './components/ProductDetail.vue';
@@ -42,3 +48,10 @@ export default {
   // Resto da definição do componente
 }
 </script>
+=======
+export default {
+  name: "App",
+};
+</script>
+// No terminal, navegue até a raiz do seu projeto Vue.js execute o seguinte comando: vue serve
+>>>>>>> dcc9e7432da33da5916d6253be41a1eabcceb70b
