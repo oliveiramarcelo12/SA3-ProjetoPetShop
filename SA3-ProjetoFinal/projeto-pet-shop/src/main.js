@@ -10,6 +10,7 @@ const router = new VueRouter({
   routes: [
     { path: "/", component: Home }, // Rota para a página inicial
       { path: "/racao", component: Racao }, // Adicione a rota para a página "racao"
+     { path: "/acessorios", component: Acessorios }, // Adicione a rota para a página "acessorios"
   ],
 });
 
