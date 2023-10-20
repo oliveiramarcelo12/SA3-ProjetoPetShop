@@ -9,8 +9,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   routes: [
     { path: "/", component: Home }, // Rota para a página inicial
-    { path: "/pagina1", component: Pagina1 }, // Rota para a primeira página
-    { path: "/pagina2", component: Pagina2 }, // Rota para a segunda página
+      { path: "/racao", component: Racao }, // Adicione a rota para a página "racao"
   ],
 });
 
