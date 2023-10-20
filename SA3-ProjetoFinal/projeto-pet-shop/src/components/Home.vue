@@ -103,13 +103,13 @@
     </div>
   </div>
    <footer>
-    <a href="sobre.html" class="linkmenu">Quem Somos</a>
-    <a href="termos.html" class="linkmenu">Termos e Políticas</a>
-    <a href="etica.html" class="linkmenu">Ética e Conduta</a>
-    <a href="contato.html" class="linkmenu">
-      <img src="telefone.png" alt="Contato" width="20">
-    </a>
-    <a href="redes-sociais.html" class="linkmenu">Siga-nos</a>
+   <router-link to="/sobre" class="linkmenu">Quem Somos</router-link>
+<router-link to="/termos" class="linkmenu">Termos e Políticas</router-link>
+<router-link to="/etica" class="linkmenu">Ética e Conduta</router-link>
+<router-link to="/contato" class="linkmenu">
+  <img src="telefone.png" alt="Contato" width="20">
+</router-link>
+<router-link to="/redes-sociais" class="linkmenu">Siga-nos</router-link>
   </footer>
 </template>
 
