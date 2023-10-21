@@ -1,0 +1,131 @@
+#bodyIndex{
+    background:  rgb(193, 238, 209);
+}
+/* styles.css */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    background-color: rgb(248, 242, 242);
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+}
+header {
+    background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+}
+#bodyContato{
+    background:  rgb(240, 240, 244);
+}
+/* styles.css */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    flex: 1;
+}
+h1 {
+    color: white;
+    padding: 20px;
+    background-color: rgb(248, 242, 242);
+    margin: 0;
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.info-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.info-box {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(250, 249, 249, 0.778);
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-content {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px#ccc;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: hsl(123, 77%, 36%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
