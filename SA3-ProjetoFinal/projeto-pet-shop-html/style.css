@@ -15,14 +15,66 @@ h1 {
     margin: 0;
 }
 
+/* Estilos para o rodapé */
 footer {
-    background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
-    padding: 10px;
-    text-align: center;
-    flex-direction: column;
-    bottom: 0;
-    width: 100%;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
 }
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os links do rodapé */
+.footer-section a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Sublinhar o link no hover */
+}
+
+/* Estilos para os títulos das seções */
+.footer-section h4 {
+    font-size: 18px;
+}
+
+/* Estilos para o ícone de mídias sociais */
+.footer-section i {
+    margin-right: 5px;
+}
+
+/* Estilos para o endereço */
+.footer-section p {
+    font-size: 14px;
+}
+
+/* Responsividade: ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+
 header {
     background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
     padding: 10px;
