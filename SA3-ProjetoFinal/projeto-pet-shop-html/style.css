@@ -1,106 +1,42 @@
-#bodyIndex{
-    background:  rgb(193, 238, 209);
+/* Reset de estilos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* styles.css */
+
+/* Estilos globais para o corpo do site */
 body {
     background-color: lightblue;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: white;
-    padding: 20px;
-    background-color: rgb(248, 242, 242);
-    margin: 0;
-}
-
-/* Estilos para o rodapé */
-footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    padding: 20px 0; /* Espaçamento interno do rodapé */
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-section {
-    flex: 1;
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-/* Estilos para os links do rodapé */
-.footer-section a {
-    color: #fff; /* Cor dos links */
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.footer-section a:hover {
-    text-decoration: underline; /* Sublinhar o link no hover */
-}
-
-/* Estilos para os títulos das seções */
-.footer-section h4 {
-    font-size: 18px;
-}
-
-/* Estilos para o ícone de mídias sociais */
-.footer-section i {
-    margin-right: 5px;
-}
-
-/* Estilos para o endereço */
-.footer-section p {
-    font-size: 14px;
-}
-
-/* Responsividade: ajustar o layout em telas menores */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer-section {
-        max-width: 100%;
-        text-align: center;
-    }
-
-
+/* Estilos para cabeçalho (header) */
 header {
-    background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
+    background-color: rgba(56, 52, 52, 0.967);
     padding: 10px;
     text-align: center;
     flex-direction: column;
     bottom: 0;
     width: 100%;
 }
-#bodyContato{
-    background:  rgb(240, 240, 244);
-}
-/* styles.css */
-body {
-    background-color: lightblue;
-    margin: 0;
-    padding: 0;
-}
+
+/* Estilos para o conteúdo do site */
 .content {
     flex: 1;
 }
+
+/* Estilos para títulos (h1) */
 h1 {
     color: white;
     padding: 20px;
     background-color: rgb(248, 242, 242);
     margin: 0;
 }
+
+/* Estilos para o container de informações */
 .info-container {
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +44,7 @@ h1 {
     margin: 20px;
 }
 
+/* Estilos para grupos de informações */
 .info-group {
     width: 50%;
     display: flex;
@@ -116,6 +53,7 @@ h1 {
     color: #ffffff;
 }
 
+/* Estilos para as caixas de informações */
 .info-box {
     width: 200px;
     padding: 20px;
@@ -124,17 +62,20 @@ h1 {
     box-shadow: 0 2px 4px rgba(250, 249, 249, 0.778);
 }
 
+/* Estilos para títulos de informações */
 .info-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* Estilos para o conteúdo das informações */
 .info-content {
     font-size: 14px;
     color: #ffffff;
 }
 
+/* Estilos para o formulário de contato */
 .contact-form {
     width: 100%;
     max-width: 600px;
@@ -142,16 +83,17 @@ h1 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px#ccc;
+    box-shadow: 0 2px 4px #ccc;
     color: #ffffff;
 }
 
+/* Estilos para grupos de formulários */
 .form-group {
     margin-bottom: 20px;
     color: #ffffff;
 }
 
-
+/* Estilos para rótulos de formulários */
 .form-label {
     font-size: 16px;
     font-weight: bold;
@@ -159,6 +101,7 @@ h1 {
     margin-bottom: 5px;
 }
 
+/* Estilos para campos de entrada de texto */
 .form-input {
     width: 100%;
     padding: 10px;
@@ -166,6 +109,7 @@ h1 {
     border-radius: 5px;
 }
 
+/* Estilos para a área de texto do formulário */
 .form-textarea {
     width: 100%;
     padding: 10px;
@@ -173,6 +117,7 @@ h1 {
     border-radius: 5px;
 }
 
+/* Estilos para o botão de envio do formulário */
 .form-submit {
     background-color: hsl(123, 77%, 36%);
     color: white;
@@ -181,3 +126,45 @@ h1 {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilos para o container do rodapé */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para as seções do rodapé */
+.footer-section {
+    flex: 1;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os links no rodapé */
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para os títulos das seções do rodapé */
+.footer-section h4 {
+    font-size: 18px;
+}
+
+/* Estilos para os ícones de míd
