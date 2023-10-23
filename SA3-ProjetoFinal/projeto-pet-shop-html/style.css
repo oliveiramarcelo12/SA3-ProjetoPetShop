@@ -1,3 +1,55 @@
+/* Estilizando a barra de navegação (navbar) */
+.navbar {
+  background-color: #333; /* Cor de fundo da barra de navegação */
+  color: #fff; /* Cor do texto na barra de navegação */
+  padding: 10px 0; /* Espaçamento interno da barra de navegação */
+}
+
+/* Estilizando os links na barra de navegação */
+.navbar a {
+  color: #fff; /* Cor do texto dos links */
+  text-decoration: none; /* Remover sublinhado dos links */
+  margin: 0 15px; /* Espaçamento entre os links */
+  font-size: 16px; /* Tamanho da fonte dos links */
+}
+
+/* Estilizando o botão de busca */
+.navbar .btn-outline-success {
+  color: #fff; /* Cor do texto do botão */
+  background-color: #28a745; /* Cor de fundo do botão */
+  border: 1px solid #28a745; /* Borda do botão */
+}
+
+/* Estilizando o logotipo (imagem) */
+.navbar img {
+  max-height: 40px; /* Altura máxima da imagem do logotipo */
+}
+
+/* Estilizando o menu suspenso (dropdown) */
+.navbar .submenu {
+  display: none; /* Oculta o menu suspenso por padrão */
+  position: absolute;
+  background-color: #333; /* Cor de fundo do menu suspenso */
+  z-index: 1;
+}
+
+/* Estilizando os itens do menu suspenso */
+.navbar .submenu li {
+  display: block;
+}
+
+/* Estilizando os itens do menu suspenso (links) */
+.navbar .submenu li a {
+  color: #fff; /* Cor do texto dos itens do menu suspenso */
+  text-decoration: none; /* Remover sublinhado dos itens do menu suspenso */
+  padding: 10px 15px; /* Espaçamento interno dos itens do menu suspenso */
+}
+
+/* Estilizando o menu suspenso quando o mouse está sobre ele */
+.navbar .nav-item:hover .submenu {
+  display: block; /* Exibe o menu suspenso quando o mouse está sobre o item do menu */
+}
+
 /* Reset de estilos para todos os elementos */
 * {
     margin: 0;
