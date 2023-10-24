@@ -50,13 +50,31 @@
       </div>
     </nav>
   </header>
-  <div class="container">
-  <h1>Bem-vindo ao King Pet Shop</h1>
-    <p>No King Pet Shop, somos apaixonados por todos os membros peludos da sua família. Estamos comprometidos em fornecer produtos e serviços de alta qualidade para atender às necessidades dos seus amados animais de estimação.</p>
-    <p>Nossa jornada começou com a visão de criar um lugar onde os animais de estimação se sintam tratados como a realeza. E, ao longo dos anos, trabalhamos incansavelmente para fazer dessa visão uma realidade. Juntos, podemos criar um mundo onde todos os animais de estimação são tratados com a realeza que merecem.</p>
-    <p>Traga a realeza para sua casa com o King Pet Shop.</p>
-     </div>
-   
+ <div class="container">
+   <h1>Agendamento de Serviço</h1>
+    <p>Por favor, selecione a cidade mais próxima e forneça as informações de agendamento:</p>
+    <form action="/processar_agendamento.php" method="POST">
+        <div class="form-group">
+            <label for="cidade">Selecione a Cidade Mais Próxima:</label>
+            <select id="cidade" name="cidade" required>
+                <option value="cidade1">Limeira</option>
+                <option value="cidade2">Campinas</option>
+                <option value="cidade3">Piracicaba</option>
+                <!-- Adicione mais cidades conforme necessário -->
+            </select>>
+        </div>
+        <div class="form-group">
+            <label for="data_hora">Data e Hora Preferidas:</label>
+            <input type="datetime-local" id="data_hora" name="data_hora" required>
+        </div>
+        <div class="form-group">
+            <label for="funcionario">Escolha um Funcionário:</label>
+            <select id="funcionario" name="funcionario" required>
+                <option value="funcionario1">Funcionário 1</option>
+                <option value="funcionario2">Funcionário 2</option>
+                <option value="funcionario3">Funcionário 3</option>
+            </select>
+        </div>
 
 <footer>
     <div class="footer-container">
