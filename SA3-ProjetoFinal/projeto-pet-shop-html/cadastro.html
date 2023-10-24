@@ -59,7 +59,7 @@
         </div>
     </div>
     <div class="container">
-        <form class="row g-3" onsubmit="enviar()">
+         <form action="/processar_cadastro.php" method="POST">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">EMAIL</label>
                 <input type="text" class="form-control" id="email" placeholder="EMAIL">
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <input type="submit" class="btn btn-primary">ENVIAR</button>
+                 <button type="submit" class="btn btn-custom">Enviar Cadastro</button>
             </div>
         </form>
     </div>
