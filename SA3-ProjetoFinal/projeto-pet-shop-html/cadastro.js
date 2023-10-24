@@ -16,7 +16,7 @@ function validarFormulario() {
 }
 
 // Event listener para o envio do formulário
-var formulario = document.getElementById("formularioContato");
+var formulario = document.getElementById("formularioCadastro");
 if (formulario) {
     formulario.addEventListener("submit", function (e) {
         if (!validarFormulario()) {
