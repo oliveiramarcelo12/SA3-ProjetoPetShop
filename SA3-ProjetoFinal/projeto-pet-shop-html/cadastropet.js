@@ -1,7 +1,7 @@
 // Função para validar o formulário de cadastro de cachorro
 function validarFormulario() {
     var nomeCachorro = document.getElementById("nome").value;
-    var racaCachorro = document.getElementById("raca").value;
+   var racaCachorro = document.getElementById("raca").options[document.getElementById("raca").selectedIndex].value;
     var sexoCachorro = document.querySelector('input[name="sexo"]:checked');
     var dataNascimentoCachorro = document.getElementById("data_nascimento").value;
     var pesoCachorro = document.getElementById("peso").value;
