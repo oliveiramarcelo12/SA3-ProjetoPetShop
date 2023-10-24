@@ -30,7 +30,11 @@ function validarFormulario() {
         alert("Por favor, insira o peso do cachorro.");
         return false;
     }
-
+ // Se o campo "castrado" não estiver marcado (não castrado), você pode exibir uma mensagem de alerta.
+    if (!castradoCachorro) {
+        alert("Por favor, marque a opção 'Castrado' se o cachorro for castrado.");
+        return false;
+    }
     return true;
 }
 
