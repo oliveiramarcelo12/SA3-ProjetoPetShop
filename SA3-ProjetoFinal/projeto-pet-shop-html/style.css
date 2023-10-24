@@ -87,7 +87,7 @@
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0}
-}#bodyClubedeMembros {
+#bodyClubedeMembros {
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
@@ -260,7 +260,7 @@ h1 {
 
 /* Estilos para o rodapé */
 footer {
-  position: fixed; /* Fixa o rodapé na parte inferior da janela do navegador */
+  /*position: fixed;  Fixa o rodapé na parte inferior da janela do navegador */
   bottom: 0; /* Define a distância entre o rodapé e o final da janela */
   width: 100%; /* Ocupa toda a largura da janela */
   background-color: #333; /* Cor de fundo do rodapé */
