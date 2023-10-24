@@ -115,6 +115,16 @@
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
+
+ }#bodyAgendamentodeServiço {
+    background-color: rgb(24, 208, 162);
+    margin: 0;
+    padding: 0
+}
+#bodyServicosPet {
+    background-color: rgb(24, 208, 162);
+    margin: 0;
+    padding: 0
 }
 /* Altera a cor do botão para preto com letras douradas */
 .btn.btn-primary {
