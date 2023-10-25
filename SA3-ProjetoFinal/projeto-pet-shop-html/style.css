@@ -65,12 +65,17 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
-#bodyCadastroPet {
+}#bodyL{
+background-color: rgb(24, 208, 162);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}#bodyCadastroPet {
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
 }#bodyLogin.pagina-login {
     min-height: 100vh; /* Garante que o conteúdo da página de login tenha pelo menos a altura da viewport. */
     position: relative;
