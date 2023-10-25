@@ -71,12 +71,18 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}#bodyLogin {
-    background-color: rgb(24, 208, 162);
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
- }#bodyRacao {
+}#bodyLogin.pagina-login {
+    min-height: 100vh; /* Garante que o conteúdo da página de login tenha pelo menos a altura da viewport. */
+    position: relative;
+}#bodyLogin.pagina-login footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}#bodyRacao {
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
