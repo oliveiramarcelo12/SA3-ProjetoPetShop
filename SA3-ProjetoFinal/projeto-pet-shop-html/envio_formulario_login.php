@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Valide os dados (por exemplo, verifique se os campos estão preenchidos)
 
     // Conecte-se ao banco de dados (substitua com suas credenciais)
-    $conexao = new mysqli("localhost", "seu_usuario", "sua_senha", "seu_banco_de_dados");
+    $conexao = new mysqli("localhost", "root", "", "pessoa");
 
     // Consulta para verificar se o usuário existe e a senha está correta
     $query = "SELECT * FROM usuarios WHERE email = '$email'";
