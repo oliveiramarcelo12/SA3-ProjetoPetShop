@@ -1,9 +1,9 @@
 <?php
 // Conexão com o banco de dados (substitua as credenciais com as suas)
 $servername = "localhost";
-$username = "seu_usuario";
-$password = "sua_senha";
-$database = "seu_banco_de_dados";
+$username = "root";
+$password = "";
+$database = "pessoa";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
