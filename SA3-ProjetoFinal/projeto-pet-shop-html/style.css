@@ -156,7 +156,18 @@ background-color: rgb(24, 208, 162);
     color: gold; /* Define as letras douradas */
     margin: 0 auto; /* Centraliza horizontalmente o botão */
 }
-
+/*detalhes produto */
+ .product-details-box {
+            background-color: #f5f5f5; /* Cor de fundo */
+            padding: 20px; /* Espaçamento interno */
+            border: 1px solid #ddd; /* Borda */
+            border-radius: 5px; /* Cantos arredondados */
+            margin-bottom: 20px; /* Espaçamento inferior */
+        }
+.small {
+    font-size: 14px; /* Tamanho da fonte menor */
+    line-height: 1.2; /* Espaçamento entre linhas menor */
+}
       
 /* Estilos para cabeçalho (header) */
 header {
