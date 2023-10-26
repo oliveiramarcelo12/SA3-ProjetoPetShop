@@ -11,92 +11,194 @@
      <script src="cadastropet.js"></script>
 </head>
 <body id="bodyCadastroPet">
+
+  <div id="bodyPet" class="pagina-cadastro-pet">
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar 
+
+navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <img src="img/" logo width="40vh">
+        <img 
+
+src="img/" logo width="40vh">
         <a href="index.html" class="navbar-brand">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-
+
+target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+
+aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        
+
+</button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul 
+
+class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="produtos.html" class="nav-link active" aria-current="page">Produtos</a>
-              <ul class="submenu">
+              <a 
+
+href="produtos.html" class="nav-link active" aria-current="page">Produtos</a>
+              <ul 
+
+class="submenu">
                 <li><a href="racao.html">Ração</a></li>
-                <li><a href="acessorios.html">Acessórios</a></li>
+                <li><a 
+
+href="acessorios.html">Acessórios</a></li>
               </ul>
             </li>
-            <li class="nav-formulario">
-              <a href="servicos_pet.html" class="nav-link active" aria-current="page">Serviços Pet</a>
+            <li 
+
+class="nav-formulario">
+              <a href="servicos_pet.html" class="nav-link active" aria-
+
+current="page">Serviços Pet</a>
             </li>
             <li class="nav-login">
-              <a href="cadastro.html" class="nav-link active">Cadastro</a>
+              <a 
+
+href="cadastro.html" class="nav-link active">Cadastro</a>
             </li>
-            <li class="nav-login">
+            <li 
+
+class="nav-login">
               <a href="login.html" class="nav-link active">Login</a>
-            </li>
+            
+
+</li>
             <li class="nav2-item">
-              <a href="meu_carrinho.html" class="nav-link active">
+              <a href="meu_carrinho.html" class="nav-link 
+
+active">
                 <img src="carrinhoComprar.png" alt="Carrinho" width="40">
-              </a>
+              
+
+</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar Eventos " aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            
+
+<input class="form-control me-2" type="search" placeholder="Buscar Eventos " aria-label="Buscar">
+  
+
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
-        </div>
+   
+
+       <div id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="itens-
+
+carrinho">
+              <!-- Os itens selecionados serão adicionados aqui -->
+            </ul>
+     
+
+       <p>Total: <span id="total-carrinho">$0.00</span></p>
+          </div>
+          
+        
+
+</div>
       </div>
     </nav>
   </header>
+ 
 <div class="container">
-    <h1>Cadastro de Cachorro</h1>
+    <h1 class="text-center">Cadastro de Cachorro</h1>
     <form action="/processar_cadastro.php" method="POST">
-        <div class="form-group">
-            <label for="nome">Nome do Cachorro:</label>
-            <input type="text" id="nome" name="nome" required>
+        <div class="form-group row">
+            <label for="nome" class="col-sm-3 col-form-label">Nome do Cachorro:</label>
+            <div class="col-sm-9">
+                <input type="text" id="nome" name="nome" class="form-control" required>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="raca">Raça do Cachorro:</label>
-            <select id="raca" name="raca">
-                  <option value=""></option>
+        <div class="form-group row">
+            <label for="raca" class="col-sm-3 col-form-label">Raça do Cachorro:</label>
+            <div class="col-sm-9">
+                <select id="raca" name="raca" class="form-control">
+                    <option value=""></option>
+                    <!-- Opções da raça -->
+  <option value=""></option>
                 <option value="labrador">Labrador</option>
-                <option value="poodle">Poodle</option>
-                <option value="golden_retriever">Golden Retriever</option>
+             
+
+   <option value="poodle">Poodle</option>
+                <option value="golden_retriever">Golden 
+
+Retriever</option>
                 <option value="bulldog">Bulldog</option>
-                <option value="beagle">Beagle</option>
+                <option 
+
+value="beagle">Beagle</option>
                 <option value="dachshund">Dachshund</option>
-                <option value="pug">Pug</option>
-                <option value="yorkshire_terrier">Yorkshire Terrier</option>
+         
+
+       <option value="pug">Pug</option>
+                <option value="yorkshire_terrier">Yorkshire 
+
+Terrier</option>
                 <option value="boxer">Boxer</option>
-                <option value="chihuahua">Chihuahua</option>
-                <!-- Adicione todas as raças de cachorro aqui -->
-            </select>
+                <option 
+
+value="chihuahua">Chihuahua</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Sexo do Cachorro:</label>
+            <div class="col-sm-9">
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="macho" name="sexo" value="macho" class="form-check-
+
+input" required>
+                    <label for="macho" class="form-check-label">Macho</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="femea" name="sexo" value="femea" class="form-check-
+
+input" required>
+                    <label for="femea" class="form-check-label">Fêmea</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-9">
+                <div class="form-check">
+                    <input type="checkbox" id="castrado" name="castrado" value="sim" class="form-
+
+check-input">
+                    <label for="castrado" class="form-check-label">Castrado</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="data_nascimento" class="col-sm-3 col-form-label">Data de Nascimento do Cachorro:</label>
+            <div class="col-sm-9">
+                <input type="date" id="data_nascimento" name="data_nascimento" class="form-control" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="peso" class="col-sm-3 col-form-label">Peso do Cachorro (em kg):</label>
+            <div class="col-sm-9">
+                <input type="number" id="peso" name="peso" step="0.01" class="form-control"required>
+            </div>
         </div>
         <div class="form-group">
-            <label for="sexo">Sexo do Cachorro:</label>
-            <input type="radio" id="macho" name="sexo" value="macho" required>
-            <label for="macho">Macho</label>
-            <input type="radio" id="femea" name="sexo" value="femea" required>
-            <label for="femea">Fêmea</label>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-block">Enviar Cadastro</button>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="castrado">Castrado:</label>
-            <input type="checkbox" id="castrado" name="castrado" value="sim">
-        </div>
-        <div class="form-group">
-            <label for="data_nascimento">Data de Nascimento do Cachorro:</label>
-            <input type="date" id="data_nascimento" name="data_nascimento" required>
-        </div>
-        <div class="form-group">
-            <label for="peso">Peso do Cachorro (em kg):</label>
-            <input type="number" id="peso" name="peso" step="0.01" required>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block btn-lg">Enviar Cadastro</button>
     </form>
 </div>
+</div>
+
+
 <footer>
   <div class="footer-container">
       <div class="footer-section">
