@@ -100,14 +100,58 @@ data-bs-slide="next">
           <p><strong>Preço: R$ 100,00</strong></p>
           <p>Disponibilidade: Em Estoque</p>
           <div class="form-outline mb-4 mb-xl-5">
-            <label for="quantidade">Quantidade:</label>
-            <input type="number" id="quantidade" class="form-control" min="1" value="1">
-          </div>
+        <label for="quantity">Quantidade:</label>
+    <select class="form-control" id="quantity" name="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <!-- Adicione mais opções conforme necessário -->
+    </select>
+</div>
           <button class="btn btn-primary" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
         </div>
       </div>
+<br><br>
+  <!-- Detalhes do Produto -->
+        <div class="row">
+            <div class="col-md-6">
+ <div class="product-details-box">
+               <h3 class="text-center">Detalhes do Produto</h3>
+                <ul>
+                     <p>Marca: Premier Pet.</p>
+                    <p>Sabor: Frango e carne.</p>
+   
+                 <p>Faixa etária(descrição): Adulto.</p>
+                    <p>Forma do produto: Seco.</p>
+                    <!-- Adicione mais detalhes conforme necessário -->
+                </ul>
+            </div>
+</div>
+            <!-- Informações importantes do Produto -->
+            <div class="col-md-6">
+ <div class="product-details-box">
+<h3 class="text-center">Informações Adicionais</h3>
+                <ul>
+                    <p>Ingredientes: Farinha de vísceras de frango, farinha de carne, milho 
+
+integral moído, quirera de arroz gordura de frango, farelo de arroz desengordurado, hidrolisado de 
+
+frango , premix vitamínico mineral, cloreto de sódio, cloreto de potássio, parede celular de 
+
+levedura antioxidantes BHA e BHT.</p>
+                   
+                                <!-- Adicione mais informações importantes conforme necessário -->
+                </ul>
+            </div>
+ </div>
+        </div>
     </div>
-  </section>
+</section>
+
+<br><br>
+        
    <!-- Seção de Avaliações -->
 <section class="product-reviews">
     <div class="container">
