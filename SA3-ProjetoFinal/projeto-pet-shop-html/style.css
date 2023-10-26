@@ -163,7 +163,13 @@ background-color: rgb(24, 208, 162);
             border: 1px solid #ddd; /* Borda */
             border-radius: 5px; /* Cantos arredondados */
             margin-bottom: 20px; /* Espaçamento inferior */
-        }
+        }#cadastro-pet-container {/*centralizar form*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .small {
     font-size: 14px; /* Tamanho da fonte menor */
     line-height: 1.2; /* Espaçamento entre linhas menor */
