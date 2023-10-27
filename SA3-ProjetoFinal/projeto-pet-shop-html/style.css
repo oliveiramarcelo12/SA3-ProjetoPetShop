@@ -57,6 +57,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}.esqueceu-senha a {
+    color: black; /* Altere a cor conforme desejado */
+text-decoration:none;
+margin-left: 280px;
+    /* Outros estilos de texto, como tamanho da fonte, negrito, etc., podem ser adicionados aqui */
+}
+.cadastro a {
+  
+text-decoration:none;
+    /* Outros estilos de texto, como tamanho da fonte, negrito, etc., podem ser adicionados aqui */
 }
 
 /* Estilos globais para o corpo do site */
