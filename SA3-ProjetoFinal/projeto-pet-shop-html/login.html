@@ -14,159 +14,162 @@
 
 <body id="bodyL">
   <div id="bodyLogin" class="pagina-login">
-  <!-- NAVEGADOR -->
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <img src="img/LogoPreto-removebg-preview.png" logo width="70vh">
-        <a href="index.html" class="navbar-brand">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="produtos.html" class="nav-link active" aria-current="page">Produtos</a>
-              <ul class="submenu">
-                <li><a href="racao.html">Ração</a></li>
-                <li><a href="acessorios.html">Acessórios</a></li>
-              </ul>
-            </li>
-            <li class="nav-formulario">
-              <a href="servicos_pet.html" class="nav-link active" aria-current="page">Serviços Pet</a>
-            </li>
-            <li class="nav-login">
-              <a href="cadastro.html" class="nav-link active">Cadastro</a>
-            </li>
-            <li class="nav-login">
-              <a href="login.html" class="nav-link active">Login</a>
-            </li>
-            <li class="nav2-item">
-              <a href="meu_carrinho.html" class="nav-link active">
-                <i class="fas fa-shopping-cart fa-lg"></i> <!-- Ícone de carrinho -->
-              </a>
-            </li>
-            
-          </ul>
+    <!-- NAVEGADOR -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <img src="img/LogoPreto-removebg-preview.png" logo width="70vh">
+          <a href="index.html" class="navbar-brand">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="produtos.html" class="nav-link active" aria-current="page">Produtos</a>
+                <ul class="submenu">
+                  <li><a href="racao.html">Ração</a></li>
+                  <li><a href="acessorios.html">Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="nav-formulario">
+                <a href="servicos_pet.html" class="nav-link active" aria-current="page">Serviços Pet</a>
+              </li>
+              <li class="nav-login">
+                <a href="cadastro.html" class="nav-link active">Cadastro</a>
+              </li>
+              <li class="nav-login">
+                <a href="login.html" class="nav-link active">Login</a>
+              </li>
+              <li class="nav2-item">
+                <a href="meu_carrinho.html" class="nav-link active">
+                  <i class="fas fa-shopping-cart fa-lg"></i> <!-- Ícone de carrinho -->
+                </a>
+              </li>
 
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar Eventos " aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
+            </ul>
 
- <div class="container">
-    <form action="envio_formulario_login.php" onsubmit="enviar()">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar Eventos " aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form action="envio_formulario_login.php" onsubmit="enviar()">
         <div class="row">
-            <div class="offset-4 col">
-                <h1>ACESSE SUA CONTA</h1>
-            </div>
-            <div class="offset-5 col-sm-6 offset-1">
-                <img src="img/OIG.jfif" height="100px" width="20%" alt="">
-            </div>
+          <div class="offset-4 col">
+            <h1>ACESSE SUA CONTA</h1>
+          </div>
+          <div class="offset-5 col-sm-6 offset-1">
+            <img src="img/OIG.jfif" height="100px" width="20%" alt="">
+          </div>
         </div>
         <div class="row">
-            <div class="offset-3 col-sm-6 offset-3">
-                <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <div id="email" class="form-text"></div>
-            </div>
+          <div class="offset-3 col-sm-6 offset-3">
+            <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="email" class="form-text"></div>
+          </div>
         </div>
         <div class="row">
-            <div class="offset-3 col-sm-6 offset-3">
-                <label for="exampleInputPassword1" class="form-label">SENHA</label>
-                <input type="password" class="form-control" id="senha">
-            </div>
+          <div class="offset-3 col-sm-6 offset-3">
+            <label for="exampleInputPassword1" class="form-label">SENHA</label>
+            <input type="password" class="form-control" id="senha">
+          </div>
         </div>
-       <div class="row">
-    <div class="offset-3 col-6">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">LEMBRA-ME</label>
-        <span class="esqueceu-senha"><a href="esqueceu_senha.html">Esqueceu a senha</a></span>
+        <div class="row">
+          <div class="offset-3 col-6">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">LEMBRA-ME</label>
+            <span class="esqueceu-senha"><a href="esqueceu_senha.html">Esqueceu a senha</a></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset-3 col-sm-6 offset-3 text-center">
+            <button type="submit" class="btn btn-primary btn-block btn-lg">LOGIN</button>
+            <span class="cadastro" <a href="cadastro.html"
+              style="color: #000000; display: block; text-align: center; margin-top: 10px;">CRIAR CONTA</a></span>
+          </div>
+        </div>
+      </form>
     </div>
-</div>
-    
-      
-     <div class="row">
-            <div class="offset-3 col-sm-6 offset-3 text-center">
-                <button type="submit" class="btn btn-primary btn-block btn-lg">LOGIN</button>
-               <span class="cadastro" <a href="cadastro.html" style="color: #000000; display: block; text-align: center; margin-top: 10px;">CRIAR 
-
-CONTA</a></span>
-            </div>
-        </div>
-    </form>
-</div>
-        </div>
-        </div>
-
-  
-  <!-- FOOTER -->
-  
-<footer>
-  <div class="footer-container">
-      <div class="footer-section">
-          <h4>Novidades e Promoções</h4>
-          <ul>
-              <li><a href="#">Ofertas Especiais</a></li>
-              <li><a href="clube_de_membros.html">Clube de membros</a></li>
-              <li><a href="#">Novos Produtos</a></li>
-              <li><a href="#">Eventos</a></li>
-          </ul>
-      </div>
-      <div class="footer-section">
-          <h4>Institucional</h4>
-          <ul>
-              <li><a href="sobre_nos.html">Sobre Nós</a></li>
-              <li><a href="acessibilidade.html">Acessibilidade</a></li>
-              <li><a href="contato.html">Fale Conosco</a></li>
-              <li><a href="politicas_do_site.html">Políticas do Site</a></li>
-          </ul>
-      </div>
-      <div class="footer-section">
-          <h4>Atendimento</h4>
-          <p>Horário de atendimento: 08:00 às 20:00 - Segunda a Sábado, horário de Brasília (Exceto domingo e feriados)</p>
-      </div>
-      <div class="footer-section">
-          <h4>Links Úteis</h4>
-          <ul>
-              <li><a href="#">Black Friday</a></li>
-              <li><a href="#">Super Outubro</a></li>
-              <li><a href="minha_conta.html">Minha Conta</a></li>
-              <li><a href="#">Meus Pedidos</a></li>
-              <li><a href="#">Cartão SysTemRem</a></li>
-              <li><a href="#">Canal Prime</a></li>
-              <li><a href="#">Atualizar Dados</a></li>
-          </ul>
-      </div>
-   <div class="footer-section">
-  <h4>Mídias Sociais</h4>
-  <ul>
-      <li><a href="https://www.facebook.com/sua_pagina" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-      <li><a href="https://twitter.com/sua_conta" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-      <li><a href="https://www.instagram.com/sua_conta" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-  </ul>
-</div>
-
-      <div class="footer-section">
-          <h4>Departamentos</h4>
-          <ul>
-              <li><a href="acessorios.html">Acessórios</a></li>
-              <li><a href="racao.html">Ração</a></li>
-              <li><a href="#">Remédios</a></li>
-              <li><a href="servicos_pet.html">Serviços</a></li>
-          </ul>
-      </div>
-      <div class="footer-section">
-          <h4>Endereço</h4>
-          <p>Rua Carlos Gomes, 1321 - 9° andar - Centro</p>
-          <p>Limeira/SP - CEP: 13480-010</p>
-      </div>
   </div>
-</footer>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Novidades e Promoções</h4>
+        <ul>
+          <li><a href="#">Ofertas Especiais</a></li>
+          <li><a href="clube_de_membros.html">Clube de membros</a></li>
+          <li><a href="#">Novos Produtos</a></li>
+          <li><a href="#">Eventos</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="sobre_nos.html">Sobre Nós</a></li>
+          <li><a href="acessibilidade.html">Acessibilidade</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+          <li><a href="politicas_do_site.html">Políticas do Site</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Atendimento</h4>
+        <p>Horário de atendimento: 08:00 às 20:00 - Segunda a Sábado, horário de Brasília (Exceto domingo e feriados)
+        </p>
+      </div>
+      <div class="footer-section">
+        <h4>Links Úteis</h4>
+        <ul>
+          <li><a href="#">Black Friday</a></li>
+          <li><a href="#">Super Outubro</a></li>
+          <li><a href="minha_conta.html">Minha Conta</a></li>
+          <li><a href="#">Meus Pedidos</a></li>
+          <li><a href="#">Cartão SysTemRem</a></li>
+          <li><a href="#">Canal Prime</a></li>
+          <li><a href="#">Atualizar Dados</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Mídias Sociais</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/sua_pagina" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+          </li>
+          <li><a href="https://twitter.com/sua_conta" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.instagram.com/sua_conta" target="_blank"><i class="fab fa-instagram"></i>
+              Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Departamentos</h4>
+        <ul>
+          <li><a href="acessorios.html">Acessórios</a></li>
+          <li><a href="racao.html">Ração</a></li>
+          <li><a href="#">Remédios</a></li>
+          <li><a href="servicos_pet.html">Serviços</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Endereço</h4>
+        <p>Rua Carlos Gomes, 1321 - 9° andar - Centro</p>
+        <p>Limeira/SP - CEP: 13480-010</p>
+      </div>
+    </div>
+  </footer>
 
 
 
