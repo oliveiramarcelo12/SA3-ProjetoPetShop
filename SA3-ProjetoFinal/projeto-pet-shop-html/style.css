@@ -386,7 +386,6 @@ footer {
     max-width: 100%; /* Define a largura máxima como 100% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
   }
-<<<<<<< HEAD
   
   .product-card {
     width: 100px; /* Largura do cartão de produto */
@@ -402,9 +401,7 @@ footer {
     height: auto; /* Isso manterá a proporção da imagem */
   }
   
-=======
-  #criar{
-    text-decoration: none;
-    color: #ff9999;
+  .product-card {
+    border: 1px solid #000; /* Cor e largura da borda */
+    border-radius: 5px; /* Cantos arredondados */
   }
->>>>>>> c31747e01c52cfb2e5138f1dc511af0a237ff48f
