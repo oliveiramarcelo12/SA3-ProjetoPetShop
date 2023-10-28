@@ -111,7 +111,11 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}#bodyPet.pagina-cadastro-pet {
+}#bodyEsqueceuSenha{
+    background: rgb(84,73,15);
+    background: radial-gradient(circle, rgba(84,73,15,0.4234068627450981) 0%, rgba(255,214,5,0.2329306722689075) 100%);
+}
+#bodyPet.pagina-cadastro-pet {
     min-height: 100vh; /* Garante que o conteúdo da página de pagina-cadastro-pet tenha pelo menos a altura da viewport. */
     position: relative;
 }#bodyPet.pagina-cadastro-pet footer {
@@ -393,7 +397,6 @@ footer {
     max-width: 100%; /* Define a largura máxima como 100% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
   }
-<<<<<<< HEAD
   
   .product-card {
     width: 100px; /* Largura do cartão de produto */
@@ -409,9 +412,3 @@ footer {
     height: auto; /* Isso manterá a proporção da imagem */
   }
   
-=======
-  #criar{
-    text-decoration: none;
-    color: #ff9999;
-  }
->>>>>>> c31747e01c52cfb2e5138f1dc511af0a237ff48f
