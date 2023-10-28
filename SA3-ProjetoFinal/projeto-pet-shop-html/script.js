@@ -10,3 +10,15 @@ imagens.forEach((imagem) => {
   imagem.style.width = `${larguraDesejada}px`;
   imagem.style.height = `${alturaDesejada}px`;
 });
+$(document).ready(function () {
+  $('.product-card').hover(
+    function () {
+      // Quando o mouse passa por cima do elemento
+      $(this).css('transform', 'scale(1.1)');
+    },
+    function () {
+      // Quando o mouse sai do elemento
+      $(this).css('transform', 'scale(1)');
+    }
+  );
+});
