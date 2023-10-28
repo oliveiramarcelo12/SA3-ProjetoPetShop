@@ -1,3 +1,10 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 /* Conteúdo do style.css */
 .navbar {
     background-color: #333;
@@ -76,7 +83,7 @@ text-decoration:none;
     padding: 0;
     font-family: Arial, sans-serif;
 }#bodyL{
-background-color: rgb(24, 208, 162);
+    background-color: #0000FF;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -100,7 +107,7 @@ background-color: rgb(153, 102, 204);
 
 }
     #bodyCadastroPet{
-background-color: rgb(153, 102, 204);
+        background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -117,6 +124,7 @@ background-color: rgb(153, 102, 204);
     text-align: center;
 
 }#bodyLogin.pagina-login {
+    background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
     min-height: 100vh; /* Garante que o conteúdo da página de login tenha pelo menos a altura da viewport. */
     position: relative;
 }#bodyLogin.pagina-login footer {
@@ -137,7 +145,7 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0;
 }#bodyCadastro {
-    background-color: rgb(24, 208, 162);
+    background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
     margin: 0;
     padding: 0}
 #bodyClubedeMembros {
