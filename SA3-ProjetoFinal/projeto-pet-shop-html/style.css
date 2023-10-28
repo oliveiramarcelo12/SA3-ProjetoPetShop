@@ -413,3 +413,8 @@ footer {
     height: auto; /* Isso manterá a proporção da imagem */
   }
   
+  .product-card {
+    border: 1px solid #000; /* Cor e largura da borda */
+    border-radius: 5px; /* Cantos arredondados */
+  }
+  
