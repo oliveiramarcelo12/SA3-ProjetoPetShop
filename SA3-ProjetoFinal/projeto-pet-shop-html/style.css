@@ -135,7 +135,8 @@ background-color: rgb(153, 102, 204);
     padding: 10px;
     width: 100%;
     text-align: center;
-}#bodyRacao {
+}
+#bodyRacao {
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
@@ -161,7 +162,8 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
 }#bodyMeuCarrinho {
-    background-color: rgb(24, 208, 162);
+    background: rgb(255,215,0);
+background: radial-gradient(circle, rgba(255,215,0,0.7931547619047619) 0%, rgba(0,0,0,0.4234068627450981) 100%);
     margin: 0;
     padding: 0
  }#bodyPedidoConfirmado {
@@ -387,4 +389,5 @@ footer {
   }
   #criar{
     text-decoration: none;
+    color: #ff9999;
   }
