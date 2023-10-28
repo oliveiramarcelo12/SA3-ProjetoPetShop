@@ -1,5 +1,4 @@
 body {
-   
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -394,7 +393,25 @@ footer {
     max-width: 100%; /* Define a largura máxima como 100% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
   }
+<<<<<<< HEAD
+  
+  .product-card {
+    width: 100px; /* Largura do cartão de produto */
+    transition: transform 0.2s; /* Adiciona uma transição suave para o efeito de zoom */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1); /* Aplica um zoom de 110% quando o mouse passa por cima */
+  }
+  /* Define o tamanho das imagens dos produtos */
+.product-image {
+    width: 130px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Isso manterá a proporção da imagem */
+  }
+  
+=======
   #criar{
     text-decoration: none;
     color: #ff9999;
   }
+>>>>>>> c31747e01c52cfb2e5138f1dc511af0a237ff48f
