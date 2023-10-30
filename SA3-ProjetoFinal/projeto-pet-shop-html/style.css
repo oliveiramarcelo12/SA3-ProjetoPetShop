@@ -191,8 +191,8 @@ background: radial-gradient(circle, rgba(255,215,0,0.7931547619047619) 0%, rgba(
     padding: 0;
 }
 #bodyProdutos{
-    background: rgb(53,94,59);
-background: linear-gradient(90deg, rgba(53,94,59,0.5718662464985995) 0%, rgba(236,156,6,0.6867121848739496) 61%, rgba(54,34,91,0.5354516806722689) 100%);
+  
+background: linear-gradient(90deg, rgba(222, 8, 137, 0.572) 0%, rgba(245, 245, 245, 0.687) 61%, rgba(160, 126, 224, 0.535) 100%);
 margin: 0;
 padding: 0;
 }
