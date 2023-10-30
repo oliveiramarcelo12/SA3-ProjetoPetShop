@@ -385,4 +385,6 @@ footer {
     max-width: 100%; /* Define a largura máxima como 100% do contêiner */
     height: auto; /* Mantém a proporção da imagem */
   }
-  
+  #criar{
+    text-decoration: none;
+  }
