@@ -17,3 +17,4 @@ function atualizarCarrinho() {
     // Você pode usar esta função para exibir o conteúdo do carrinho na página de carrinho de compras (meu_carrinho.html).
     // Percorra a matriz carrinhoDeCompras e exiba os itens, quantidades e preços.
 }
+

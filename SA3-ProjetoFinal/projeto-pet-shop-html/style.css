@@ -1,5 +1,4 @@
 body {
-   
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -78,7 +77,8 @@ text-decoration:none;
 
 /* Estilos globais para o corpo do site */
 #bodyIndex {
-     background: linear-gradient(to bottom, #B48CDC, #FFFFFF);
+    background: rgb(57,50,199);
+background: linear-gradient(90deg, rgba(57,50,199,0.6951155462184874) 0%, rgba(162,0,255,0.3757878151260504) 35%, rgba(0,212,255,0.804359243697479) 100%);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -111,7 +111,11 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}#bodyPet.pagina-cadastro-pet {
+}#bodyEsqueceuSenha{
+    background: rgb(84,73,15);
+    background: radial-gradient(circle, rgba(84,73,15,0.4234068627450981) 0%, rgba(255,214,5,0.2329306722689075) 100%);
+}
+#bodyPet.pagina-cadastro-pet {
     min-height: 100vh; /* Garante que o conteúdo da página de pagina-cadastro-pet tenha pelo menos a altura da viewport. */
     position: relative;
 }#bodyPet.pagina-cadastro-pet footer {
@@ -135,7 +139,8 @@ background-color: rgb(153, 102, 204);
     padding: 10px;
     width: 100%;
     text-align: center;
-}#bodyRacao {
+}
+#bodyRacao {
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
@@ -157,11 +162,13 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
 }#bodyEticaseConduta {
-    background-color: rgb(24, 208, 162);
+    background: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,0) 0%, rgba(1,1,1,0.4822303921568627) 100%);
     margin: 0;
     padding: 0
 }#bodyMeuCarrinho {
-    background-color: rgb(24, 208, 162);
+    background: rgb(255,215,0);
+background: radial-gradient(circle, rgba(255,215,0,0.7931547619047619) 0%, rgba(0,0,0,0.4234068627450981) 100%);
     margin: 0;
     padding: 0
  }#bodyPedidoConfirmado {
@@ -173,19 +180,27 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
  }#bodySobreNos {
-    background-color: rgb(24, 208, 162);
+    background: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,0) 0%, rgba(1,1,1,0.4822303921568627) 100%);
     margin: 0;
     padding: 0
 
  }#bodyAgendamentodeServiço {
     background-color: rgb(24, 208, 162);
     margin: 0;
-    padding: 0
+    padding: 0;
+}
+#bodyProdutos{
+    background: rgb(53,94,59);
+background: linear-gradient(90deg, rgba(53,94,59,0.5718662464985995) 0%, rgba(236,156,6,0.6867121848739496) 61%, rgba(54,34,91,0.5354516806722689) 100%);
+margin: 0;
+padding: 0;
 }
 #bodyServicosPet {
-    background-color: rgb(24, 208, 162);
+    background: rgb(94,53,53);
+    background: linear-gradient(90deg, rgba(94,53,53,0.5718662464985995) 0%, rgba(203,159,11,0.6867121848739496) 61%, rgba(34,91,63,0.5354516806722689) 100%);
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 /* Altera a cor do botão para preto com letras douradas */
 .btn.btn-primary {
@@ -388,3 +403,23 @@ footer {
   #criar{
     text-decoration: none;
   }
+  
+  .product-card {
+    width: 100px; /* Largura do cartão de produto */
+    transition: transform 0.2s; /* Adiciona uma transição suave para o efeito de zoom */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1); /* Aplica um zoom de 110% quando o mouse passa por cima */
+  }
+  /* Define o tamanho das imagens dos produtos */
+.product-image {
+    width: 130px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Isso manterá a proporção da imagem */
+  }
+  
+  .product-card {
+    border: 1px solid #000; /* Cor e largura da borda */
+    border-radius: 5px; /* Cantos arredondados */
+  }
+  

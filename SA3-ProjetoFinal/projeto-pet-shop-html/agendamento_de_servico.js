@@ -1,4 +1,3 @@
-
 // Função para preencher a data atual no campo de data com limite até 31/12/2023 e formato dd/mm/aaaa
 function preencherDataAtual() {
     const dataAtual = new Date();
@@ -72,3 +71,7 @@ function preencherHoraAtual() {
 // Chame a função ao carregar a página
 window.onload = preencherHoraAtual;
 
+<<<<<<< HEAD
+=======
+</script>
+>>>>>>> 914fe20370a9c50223e8c74286cf33c56de28e84
