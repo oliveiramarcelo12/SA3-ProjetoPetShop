@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -162,13 +163,23 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
 }#bodyEticaseConduta {
-    background: rgb(255,215,0);
-    background: radial-gradient(circle, rgba(255,215,0,0) 0%, rgba(1,1,1,0.4822303921568627) 100%);
+    background: rgb(51, 47, 22);
+    background: radial-gradient(circle, rgba(29, 28, 23, 0) 0%, rgba(1,1,1,0.4822303921568627) 100%);
     margin: 0;
     padding: 0
-}#bodyMeuCarrinho {
-    background: rgb(255,215,0);
-background: radial-gradient(circle, rgba(255,215,0,0.7931547619047619) 0%, rgba(0,0,0,0.4234068627450981) 100%);
+    
+}#bodyMeuProduto{
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    margin: 0; /* Remover margens padrão do body */
+    font-family: 'Arial', sans-serif; /* Especificar a fonte desejada */
+    /* Adicione estilos adicionais conforme necessário */
+}
+#bodyMeuCarrinho {
+    background: rgb(49,178,194);
+    background: radial-gradient(circle, rgba(49,178,194,0.8491771708683473) 0%, rgba(140,127,80,1) 100%);
     margin: 0;
     padding: 0
  }#bodyPedidoConfirmado {
@@ -176,7 +187,8 @@ background: radial-gradient(circle, rgba(255,215,0,0.7931547619047619) 0%, rgba(
     margin: 0;
     padding: 0
  }#bodyPoliticadoSite {
-    background-color: rgb(24, 208, 162);
+    background: rgb(18,168,186);
+    background: radial-gradient(circle, rgba(18,168,186,0.23853291316526615) 0%, rgba(0,50,22,0.3309698879551821) 100%);
     margin: 0;
     padding: 0
  }#bodySobreNos {
