@@ -450,3 +450,13 @@ footer {
     border-radius: 5px; /* Cantos arredondados */
   }
   
+  .home-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .home-button:focus {
+    outline: none;
+  }
