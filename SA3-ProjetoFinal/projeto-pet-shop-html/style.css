@@ -111,7 +111,8 @@ background-color: rgb(153, 102, 204);
 
 }
     #bodyCadastroPet{
-        background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
+        background: rgb(2,0,36);
+        background: linear-gradient(328deg, rgba(2,0,36,0.5214460784313726) 0%, rgba(130,129,13,0.48783263305322133) 35%, rgba(0,100,120,0.5606617647058824) 100%);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
