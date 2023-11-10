@@ -1,4 +1,8 @@
-
+#car{
+    border-radius: 15px; /* ajuste o valor conforme necessário para obter o arredondamento desejado */
+    overflow: hidden;    /* certifique-se de que o overflow está oculto para manter a borda arredondada */
+ }
+ 
 body {
     margin: 0;
     padding: 0;
