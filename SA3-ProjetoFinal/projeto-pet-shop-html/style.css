@@ -168,24 +168,24 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
     
-}#bodyMeuProduto{
-    background-image: url('caminho/para/sua/imagem.jpg');
+}#bodyMeuCarrinho {
+    background: rgb(97, 124, 128);
+    background: radial-gradient(circle, rgba(184, 217, 221, 0.849) 0%, rgba(140,127,80,1) 100%);
+    margin: 0;
+    padding: 0
+ }#bodyPedidoConfirmado {
+    background-image: url('img/serpentina.jpg');
     background-size: cover; /* Para cobrir todo o fundo */
     background-position: center; /* Para centralizar a imagem */
     background-repeat: no-repeat; /* Para evitar a repetição da imagem */
     margin: 0; /* Remover margens padrão do body */
     font-family: 'Arial', sans-serif; /* Especificar a fonte desejada */
     /* Adicione estilos adicionais conforme necessário */
-}
-#bodyMeuCarrinho {
-    background: rgb(49,178,194);
-    background: radial-gradient(circle, rgba(49,178,194,0.8491771708683473) 0%, rgba(140,127,80,1) 100%);
+
     margin: 0;
     padding: 0
- }#bodyPedidoConfirmado {
-    background-color: rgb(24, 208, 162);
-    margin: 0;
-    padding: 0
+   
+
  }#bodyPoliticadoSite {
     background: rgb(18,168,186);
     background: radial-gradient(circle, rgba(18,168,186,0.23853291316526615) 0%, rgba(0,50,22,0.3309698879551821) 100%);
