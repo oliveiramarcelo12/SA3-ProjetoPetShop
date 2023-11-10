@@ -78,13 +78,12 @@ text-decoration:none;
 
 /* Estilos globais para o corpo do site */
 #bodyIndex {
-    background: rgb(57,50,199);
-background: linear-gradient(90deg, rgba(57,50,199,0.6951155462184874) 0%, rgba(162,0,255,0.3757878151260504) 35%, rgba(0,212,255,0.804359243697479) 100%);
+    background: rgb(0,140,218);
+    background: linear-gradient(90deg, rgba(0,140,218,0.3533788515406162) 0%, rgba(194,117,1,0.26094187675070024) 45%, rgba(0,98,153,0.29175420168067223) 100%);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }#bodyL{
-    background-color: #0000FF;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -129,7 +128,8 @@ background-color: rgb(153, 102, 204);
     text-align: center;
 
 }#bodyLogin.pagina-login {
-    background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
+    background: rgb(47,42,0);
+    background: radial-gradient(circle, rgba(47,42,0,0.4290091036414566) 4%, rgba(10,33,31,0.4318102240896359) 43%, rgba(27,92,126,0.5298494397759104) 94%);
     min-height: 100vh; /* Garante que o conteúdo da página de login tenha pelo menos a altura da viewport. */
     position: relative;
 }#bodyLogin.pagina-login footer {
@@ -142,16 +142,19 @@ background-color: rgb(153, 102, 204);
     text-align: center;
 }
 #bodyRacao {
-    background-color: rgb(24, 208, 162);
+    background: rgb(93,96,0);
+    background: radial-gradient(circle, rgba(93,96,0,0.36458333333333337) 0%, rgba(0,130,134,0.3085609243697479) 100%);
     margin: 0;
     padding: 0
 
 }#bodyAcessorios {
-    background-color: rgb(24, 208, 162);
+    background: rgb(96,95,0);
+    background: radial-gradient(circle, rgba(96,95,0,0.36458333333333337) 0%, rgba(0,111,134,0.3085609243697479) 100%);
     margin: 0;
     padding: 0;
 }#bodyCadastro {
-    background: linear-gradient(135deg, #99ccff, #ffcc99, #ccff99);
+    background: rgb(128,113,0);
+    background: linear-gradient(321deg, rgba(128,113,0,0.2329306722689075) 4%, rgba(10,33,31,0.4066001400560224) 43%, rgba(0,89,135,0.5298494397759104) 94%);
     margin: 0;
     padding: 0}
 #bodyClubedeMembros {
@@ -198,19 +201,21 @@ background-color: rgb(153, 102, 204);
     padding: 0
 
  }#bodyAgendamentodeServiço {
-    background-color: rgb(24, 208, 162);
+    background: rgb(90,122,116);
+    background: linear-gradient(90deg, rgba(90,122,116,0.7707457983193278) 0%, rgba(83,121,9,0.40379901960784315) 35%, rgba(127,134,6,0.4990371148459384) 100%);
     margin: 0;
     padding: 0;
 }
 #bodyProdutos{
   
-background: linear-gradient(90deg, rgba(222, 8, 137, 0.572) 0%, rgba(245, 245, 245, 0.687) 61%, rgba(160, 126, 224, 0.535) 100%);
+    background: rgb(77,139,127);
+background: linear-gradient(90deg, rgba(77,139,127,0.7707457983193278) 0%, rgba(3,25,80,0.2413340336134454) 45%, rgba(127,134,6,0.4430147058823529) 100%);
 margin: 0;
 padding: 0;
 }
 #bodyServicosPet {
-    background: rgb(94,53,53);
-    background: linear-gradient(90deg, rgba(94,53,53,0.5718662464985995) 0%, rgba(203,159,11,0.6867121848739496) 61%, rgba(34,91,63,0.5354516806722689) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(325deg, rgba(0,0,0,0.4290091036414566) 20%, rgba(140,107,0,0.45702030812324934) 59%, rgba(0,0,0,0.33657212885154064) 66%);
     margin: 0;
     padding: 0;
 }
