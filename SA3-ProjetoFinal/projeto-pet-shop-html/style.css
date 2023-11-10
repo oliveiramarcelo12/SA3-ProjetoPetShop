@@ -161,8 +161,9 @@ background-color: rgb(153, 102, 204);
     background-color: rgb(24, 208, 162);
     margin: 0;
     padding: 0
-}#bodyContato {
-    background-color: rgb(24, 208, 162);
+}#bodyPedidos {
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.5158438375350141) 0%, rgba(113,95,0,0.4542191876750701) 100%);
     margin: 0;
     padding: 0
 }#bodyEticaseConduta {
@@ -171,7 +172,11 @@ background-color: rgb(153, 102, 204);
     margin: 0;
     padding: 0
     
-}#bodyMeuCarrinho {
+}#bodyMeuProduto{
+    background: rgb(112,94,11);
+background: linear-gradient(90deg, rgba(112,94,11,0.30575980392156865) 0%, rgba(69,73,0,0.21612394957983194) 35%, rgba(27,116,134,0.35057773109243695) 100%);
+}
+#bodyMeuCarrinho {
     background: rgb(97, 124, 128);
     background: radial-gradient(circle, rgba(184, 217, 221, 0.849) 0%, rgba(140,127,80,1) 100%);
     margin: 0;
