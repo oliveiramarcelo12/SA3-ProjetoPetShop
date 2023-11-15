@@ -1,48 +1,43 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const produtos = document.querySelectorAll('.produto');
-    const listaCarrinho = document.getElementById('lista-carrinho');
-    const totalCarrinho = document.getElementById('total-carrinho');
-    const limparCarrinhoBtn = document.getElementById('limpar-carrinho');
+var carrinhoItens = obterCarrinho();
 
-    let carrinho = [];
+function adicionarAoCarrinho(nome, preco, imagem) {
+    carrinhoItens.push({ nome: nome, preco: preco, imagem: imagem });
+    salvarCarrinho();
+    atualizarCarrinho();
+}
 
-    produtos.forEach(produto => {
-        const botaoAdicionar = produto.querySelector('.adicionar-carrinho');
-        botaoAdicionar.addEventListener('click', () => {
-            adicionarAoCarrinho(produto);
-            atualizarCarrinho();
-        });
-    });
+function salvarCarrinho() {
+    // Salva o carrinho no localStorage
+    localStorage.setItem('carrinho', JSON.stringify(carrinhoItens));
+}
 
-    limparCarrinhoBtn.addEventListener('click', () => {
-        carrinho = [];
-        atualizarCarrinho();
-    });
-
-    function adicionarAoCarrinho(produto) {
-        const nome = produto.dataset.nome;
-        const preco = parseFloat(produto.dataset.preco);
-        const itemCarrinho = carrinho.find(item => item.nome === nome);
-
-        if (itemCarrinho) {
-            itemCarrinho.quantidade++;
-        } else {
-            carrinho.push({ nome, preco, quantidade: 1 });
-        }
-    }
-
-    function atualizarCarrinho() {
-        listaCarrinho.innerHTML = '';
-        let total = 0;
-
-        carrinho.forEach(item => {
-            const listItem = document.createElement('li');
-            listItem.innerHTML = `${item.nome} - R$ ${item.preco.toFixed(2)} x ${item.quantidade}`;
-            listaCarrinho.appendChild(listItem);
-
-            total += item.preco * item.quantidade;
-        });
-
-        totalCarrinho.textContent = `R$ ${total.toFixed(2)}`;
-    }
+function obterCarrinho() {
+    // Obtém o carrinho do localStorage
+    var carrinho = localStorage.getItem('carrinho');
+    return carrinho ? JSON.parse(carrinho) : [];
+}
+ // Limpar o carrinho
+ $('#limpar-carrinho').click(function () {
+    carrinhoItens = [];
+    salvarCarrinho();
+    atualizarCarrinho();
 });
+function atualizarCarrinho() {
+    // Atualiza o conteúdo do carrinho na página
+    $('#lista-carrinho').empty();
+    var total = 0;
+
+    carrinhoItens.forEach(function (item) {
+        // Use os dados para exibir os produtos no carrinho
+        $('#lista-carrinho').append(
+            '<li>' +
+            '<img src="/img' + item.imagem + '" alt="' + item.nome + '">' +
+            item.nome + ' - R$ ' + item.preco.toFixed(2) +
+            '</li>'
+        );
+
+        total += item.preco;
+    });
+
+    $('#total-carrinho').text('R$ ' + total.toFixed(2));
+}
