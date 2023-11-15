@@ -1,9 +1,11 @@
-#link{
-  
+#link {
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-    
-}
+  }
 #car{
     border-radius: 15px; /* ajuste o valor conforme necessário para obter o arredondamento desejado */
     overflow: hidden;    /* certifique-se de que o overflow está oculto para manter a borda arredondada */
