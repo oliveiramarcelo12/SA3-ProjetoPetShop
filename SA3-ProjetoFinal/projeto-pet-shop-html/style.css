@@ -1,3 +1,11 @@
+#link {
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 #car{
     border-radius: 15px; /* ajuste o valor conforme necessário para obter o arredondamento desejado */
     overflow: hidden;    /* certifique-se de que o overflow está oculto para manter a borda arredondada */
@@ -109,8 +117,12 @@ background-color: rgb(153, 102, 204);
     width: 100%;
     text-align: center;
 
+}#meusPedidos{
+    background: rgb(64,60,2);
+background: linear-gradient(34deg, rgba(64,60,2,0.6243289552148985) 0%, rgba(0,161,144,0.7251692913493523) 100%);
 }
-    #bodyCadastroPet{
+
+ #bodyCadastroPet{
         background: rgb(2,0,36);
         background: linear-gradient(328deg, rgba(2,0,36,0.5214460784313726) 0%, rgba(130,129,13,0.48783263305322133) 35%, rgba(0,100,120,0.5606617647058824) 100%);
     margin: 0;
