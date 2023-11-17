@@ -1,19 +1,32 @@
- // Suponha que você tenha uma variável indicando se o usuário está logado
-    var usuarioLogado = false;
-
-    if (usuarioLogado) {
-        // Se o usuário estiver logado, exibe o menu logado
-        var nomeUsuario = "Nome do Usuário";  // Substitua isso pelo nome real do usuário
-        document.write("<p>Bem-vindo, " + nomeUsuario + "!</p>");
-        document.write("<ul>");
-        document.write("<li>Opção 1</li>");
-        document.write("<li>Opção 2</li>");
-        document.write("<li><a href='#'>Sair</a></li>");
-        document.write("</ul>");
-    } else {
-        // Se o usuário não estiver logado, exibe o menu de login
-        document.write("<ul>");
-        document.write("<li><a href='#'>Fazer login</a></li>");
-        document.write("<li><a href='#'>Sair</a></li>");
-        document.write("</ul>");
+  // Função para verificar se o usuário está logado
+    function verificarLogin() {
+        // Suponha que você tenha uma API no backend que verifica o estado de login
+        // Esta é uma chamada de exemplo simulada usando a função setTimeout
+        setTimeout(function() {
+            var usuarioLogado = true; // Suponha que o servidor responda que o usuário está logado
+            exibirMenu(usuarioLogado);
+        }, 1000); // Simula uma chamada assíncrona para o servidor
     }
+
+    // Função para exibir o menu com base no estado de login
+    function exibirMenu(usuarioLogado) {
+        var menuContainer = document.getElementById("menu-container");
+
+        if (usuarioLogado) {
+            var nomeUsuario = "Nome do Usuário";  // Substitua isso pelo nome real do usuário
+            menuContainer.innerHTML = "<p>Bem-vindo, " + nomeUsuario + "!</p>" +
+                "<ul>" +
+                "<li>Opção 1</li>" +
+                "<li>Opção 2</li>" +
+                "<li><a href='#'>Sair</a></li>" +
+                "</ul>";
+        } else {
+            menuContainer.innerHTML = "<ul>" +
+                "<li><a href='#'>Fazer login</a></li>" +
+                "<li><a href='#'>Sair</a></li>" +
+                "</ul>";
+        }
+    }
+
+    // Chamada inicial para verificar o estado de login
+    verificarLogin();
