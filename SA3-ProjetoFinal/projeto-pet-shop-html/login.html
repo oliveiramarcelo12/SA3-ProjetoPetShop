@@ -30,8 +30,9 @@
      <!-- header -->
      <div id="header"></div>
 
-    <div class="container">
-      <form action="envio_formulario_login.php" onsubmit="enviar()">
+     <div class="container">
+      <form id="loginForm" action="http://localhost/king/login_script.php" method="post" onsubmit="return realizarLogin()">
+         
         <div class="row">
           <div class="offset-4 col">
             <h1>ACESSE SUA CONTA</h1>
@@ -43,14 +44,14 @@
         <div class="row">
           <div class="offset-3 col-sm-6 offset-3">
             <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email" name="loginEmail" aria-describedby="emailHelp">
             <div id="email" class="form-text"></div>
           </div>
         </div>
         <div class="row">
           <div class="offset-3 col-sm-6 offset-3">
             <label for="exampleInputPassword1" class="form-label">SENHA</label>
-            <input type="password" class="form-control" id="senha">
+            <input type="password" class="form-control" id="senha" name="loginSenha">
           </div>
         </div>
         <div class="row">
@@ -64,7 +65,8 @@
         <div class="row" id="criar">
           <div class="offset-3 col-sm-6 offset-3 text-center">
             <button type="submit" class="btn btn-primary btn-block btn-lg">LOGIN</button>
-            <a href="cadastro.html" id="link" class="cadastro">CRIAR CONTA</a>
+            <a href="cadastro.html"><span class="cadastro"
+                style="color: #000000; display: block; text-align: center; margin-top: 10px;">CRIAR CONTA</a></span>
           </div>
         </div>
       </form>

@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "pessoa";
+$database = "king";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -23,7 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ss", $email, $senha);
 
     if ($stmt->execute()) {
-        echo "Cadastro bem-sucedido. Você pode fazer login agora.";
+        // Cadastro bem-sucedido. Redirecione para a página de login.
+        header("Location:http://localhost/king/login.html");
+        exit();
     } else {
         echo "Erro no cadastro: " . $stmt->error;
     }
