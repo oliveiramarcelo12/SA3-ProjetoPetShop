@@ -59,39 +59,13 @@
     </div>
   </div>
   <br>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="img/casinha.webp" class="card-img-top" alt="Produto 1">
-          <div class="card-body">
-            <h5 class="card-title">Produto 1</h5>
-            <p class="card-text">Descrição do Produto 1</p>
-            <a href="meu_produto.html" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="img/Antipulgas-Caes-Simparic-40mg-101-a-20kg-Zoetis.webp" class="card-img-top" alt="Produto 2">
-          <div class="card-body">
-            <h5 class="card-title">Produto 2</h5>
-            <p class="card-text">Descrição do Produto 2</p>
-            <a href="meu_produto2.html" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="img/Caixa-de-Transporte-C-Pet-Lateral-Direita.png" class="card-img-top" alt="Produto 3">
-          <div class="card-body">
-            <h5 class="card-title">Produto 3</h5>
-            <p class="card-text">Descrição do Produto 3</p>
-            <a href="meu_produto3.html" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
+ 
+  <div class="carousel-container">
+    <div class="carousel" id="productCarousel">
+      <!-- Produtos serão adicionados dinamicamente aqui -->
     </div>
+    <button onclick="prevSlide()">Anterior</button>
+    <button onclick="nextSlide()">Próximo</button>
   </div>
 
   <br><br><br><br><br><br>
