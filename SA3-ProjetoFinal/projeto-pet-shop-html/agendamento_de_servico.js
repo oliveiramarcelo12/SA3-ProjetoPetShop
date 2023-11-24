@@ -71,7 +71,3 @@ function preencherHoraAtual() {
 // Chame a função ao carregar a página
 window.onload = preencherHoraAtual;
 
-<<<<<<< HEAD
-=======
-</script>
->>>>>>> 914fe20370a9c50223e8c74286cf33c56de28e84
