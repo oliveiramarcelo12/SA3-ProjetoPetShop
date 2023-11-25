@@ -250,12 +250,14 @@ padding: 0;
 
 /* Altera a cor do botão ao passar o mouse por cima */
 .btn.btn-primary:hover {
+    width: 100%;
     background: rgb(17,110,111);
     background: radial-gradient(circle, rgba(17,110,111,1) 0%, rgba(27,178,180,0.9752275910364145) 100%);/* Cor de fundo dourado ao passar o mouse por cima */
   color: black; /* Cor do texto preto ao passar o mouse por cima */
 }
 /* style.css */
 .btn-custom {
+    width: 100%;
     background-color: black; /* Define o fundo preto */
     color: gold; /* Define as letras douradas */
     margin: 0 auto; /* Centraliza horizontalmente o botão */
