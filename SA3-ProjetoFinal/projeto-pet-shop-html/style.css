@@ -166,8 +166,7 @@ background: linear-gradient(34deg, rgba(64,60,2,0.6243289552148985) 0%, rgba(0,1
     padding: 0
 
 }#bodyAcessorios {
-    background: rgb(96,95,0);
-    background: radial-gradient(circle, rgba(96,95,0,0.36458333333333337) 0%, rgba(0,111,134,0.3085609243697479) 100%);
+   background-color: aliceblue;
     margin: 0;
     padding: 0;
 }#bodyCadastro {
@@ -244,13 +243,15 @@ padding: 0;
 }
 /* Altera a cor do botão para preto com letras douradas */
 .btn.btn-primary {
-  background-color: black; /* Cor de fundo preto */
+    background: radial-gradient(circle, rgba(0,0,0,0.5690651260504201) 86%, rgba(115,98,0,0.5214460784313726) 100%); /* Cor de fundo preto */
+ /* Cor de fundo preto */
   color: gold; /* Cor do texto dourado */
 }
 
 /* Altera a cor do botão ao passar o mouse por cima */
 .btn.btn-primary:hover {
-  background-color: gold; /* Cor de fundo dourado ao passar o mouse por cima */
+    background: rgb(17,110,111);
+    background: radial-gradient(circle, rgba(17,110,111,1) 0%, rgba(27,178,180,0.9752275910364145) 100%);/* Cor de fundo dourado ao passar o mouse por cima */
   color: black; /* Cor do texto preto ao passar o mouse por cima */
 }
 /* style.css */
