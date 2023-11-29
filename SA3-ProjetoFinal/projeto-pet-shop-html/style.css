@@ -243,6 +243,7 @@ padding: 0;
 }
 /* Altera a cor do botão para preto com letras douradas */
 .btn.btn-primary {
+    width: 100%;
     background: radial-gradient(circle, rgba(0,0,0,0.5690651260504201) 86%, rgba(115,98,0,0.5214460784313726) 100%); /* Cor de fundo preto */
  /* Cor de fundo preto */
   color: gold; /* Cor do texto dourado */
@@ -250,10 +251,14 @@ padding: 0;
 
 /* Altera a cor do botão ao passar o mouse por cima */
 .btn.btn-primary:hover {
-    width: 100%;
+   
     background: rgb(17,110,111);
     background: radial-gradient(circle, rgba(17,110,111,1) 0%, rgba(27,178,180,0.9752275910364145) 100%);/* Cor de fundo dourado ao passar o mouse por cima */
   color: black; /* Cor do texto preto ao passar o mouse por cima */
+}
+#boot {
+    width: 25%;
+    
 }
 /* style.css */
 .btn-custom {
